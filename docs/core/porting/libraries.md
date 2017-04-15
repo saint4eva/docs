@@ -263,7 +263,7 @@ You'll need to make sure you understand the [API Portability tool (ApiPort)](htt
 This approach may be the best for small projects or projects which don't use many .NET Framework APIs.  The approach is very simple:
 
 1. Optionally run ApiPort on your project.
-2. If ApiPort was ran, take a quick glance at the report.
+2. If ApiPort was run, take a quick glance at the report.
 3. Copy all of your code over into a new .NET Core project.
 4. Work out compiler errors until it compiles, referring to the portability report if needed.
 5. Repeat as needed.
